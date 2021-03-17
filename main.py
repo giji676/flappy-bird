@@ -95,7 +95,7 @@ def main():
                 if pipe.pipeX1b <= player.x1 + player.x2 <= pipe.pipeX2b and player.player_height + player.y2 >= pipe.pipeY1b:
                     death_screen()
 
-                if pipe.pipeX1b <= player.x1 <= pipe.pipeX2b and player.player_height + player.x2 >= pipe.pipeY1b:
+                if pipe.pipeX1b <= player.x1 <= pipe.pipeX2b and player.player_height + player.y2 >= pipe.pipeY1b:
                     death_screen()
 
             if player.player_height >= HEIGHT:
